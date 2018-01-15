@@ -1,7 +1,15 @@
 # Decision-tree
 code of ID3、CART 
-  
-ID3:main function introduce 
+
+一、 File Description：
+
+brease_raw:乳腺癌原始数据
+
+breast_processed：处理过的10维乳腺癌数据
+
+
+ 二、 Main Function  
+ID3: main function introduce 
 
 1. 计算经验熵：def calcShannonEnt(dataSet)
 2. 计算信息增益
@@ -14,7 +22,7 @@ ID3:main function introduce
 4. 建树：def majorityCnt(classList):def createTree(dataSet, labels, featLabels)
 
 
-CART:main function introduce
+CART: main function introduce
 
 1. 载入数据:def loadDataSet(self, fileName)
 
